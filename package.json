@@ -1,0 +1,31 @@
+{
+  "name": "webpack-tutorials",
+  "version": "1.0.0",
+  "description": "learning how to configure webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.1",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "webpack-dev-server": "^4.1.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
